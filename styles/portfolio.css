@@ -18,12 +18,12 @@ a{
 }
 /*navbar styling */
 .navbar{
-  position: fixed;
   width: 100%;
   z-index: 999;
   padding: 30px 0;
 font-family: 'Ubuntu', sans-serif;
-transition: all 0.3s ease;
+position: fixed;
+  background: crimson;
 }
 .navbar.sticky{
   padding: 15px 0;
@@ -247,6 +247,11 @@ border-radius: 6px;
   border-radius: 6px;
   padding: 20px 25px;
   cursor: pointer;
+}
+.proj{
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
 }
 .services .serv-content .card:hover{
   background: crimson;
